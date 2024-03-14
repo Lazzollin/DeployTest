@@ -1,37 +1,14 @@
 {
   "expo": {
-    "name": "TMovieApp",
-    "slug": "clase-rn-test",
-    "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
-    "ios": {
-      "supportsTablet": true
-    },
-    "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      },
-      "package": "com.lazzollin.claserntest"
-    },
-    "web": {
-      "favicon": "./assets/favicon.png"
-    },
     "extra": {
       "eas": {
-        "projectId": "58bcb138-df41-4f44-9578-912f1a4c55ab"
+        "projectId": "450ae4b9-8cc6-4552-bd3c-e89ef932c8c3"
       }
     },
-    "owner": "lazzollin"
+    "owner": "lazzollin",
+    "slug": "clase-rn-test2",
+    "android": {
+      "package": "com.lazzollin.claserntest2"
+    }
   }
 }

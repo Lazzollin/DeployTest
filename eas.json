@@ -5,13 +5,7 @@
   "build": {
     "development": {
       "developmentClient": true,
-      "distribution": "internal",
-      "android": {
-        "image": "latest"
-      },
-      "ios": {
-        "image": "latest"
-      }
+      "distribution": "internal"
     },
     "preview": {
       "distribution": "internal"
@@ -19,7 +13,8 @@
     "production": {
       "node": "20.9.0",
       "android": {
-        "image": "latest"
+        "image": "latest",
+        "buildType": "apk"
       },
       "ios": {
         "image": "latest"
