@@ -14,8 +14,11 @@
       "node": "20.9.0",
       "android": {
         "image": "latest",
-        "buildType": "apk"
+        "buildType": "apk",
+        "track": "internal"
       },
+      
+      "distribution": "internal",
       "ios": {
         "image": "latest"
       }
